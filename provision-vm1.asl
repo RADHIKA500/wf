@@ -16,11 +16,11 @@
       },
       "Parameters": {
         "API_URL.$": "$$.Execution._manageiq_api_url",
-        "VERIFY_SSL.$": "$.dialog.verify_ssl",
+        "VERIFY_SSL.$": "$.dialog_verify_ssl",
 
-        "PROVIDER_ID.$": "$.dialog.provider",
-        "TEMPLATE.$": "$.dialog.source_template",
-        "NAME.$": "$.dialog.vm_name"
+        "PROVIDER_ID.$": "$.dialog_provider",
+        "TEMPLATE.$": "$.dialog_source_template",
+        "NAME.$": "$.dialog_vm_name"
       }
     },
 
