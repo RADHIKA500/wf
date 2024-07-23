@@ -11,7 +11,7 @@
         "vcenter_password.$": "$.vcenter_password"
       },
       "Parameters": {
-        "VCENTER_HOST.$": "$.vcenter_host",
+        "VCENTER_HOST.$": "$.dialog_vchost",
         "VM.$": "$.dialog_vmid"
       }
     },
