@@ -1,8 +1,8 @@
 {
   "Comment": "Power on a VMware VM.",
-  "StartAt": "Power",
+  "StartAt": "RJPower",
   "States": {
-  "PowerOnVM": {
+  "RJPower": {
       "Type": "Task",
       "Resource": "docker://docker.io/manageiq/workflows-examples-provision-vm-service-power-on-vm:latest",
       "Next": "SuccessState",
@@ -14,6 +14,9 @@
         "VCENTER_HOST.$": "$.vcenter_host",
         "VM.$": "$.dialog_vmid"
       }
+    },
+    "SuccessState": {
+        "Type": "Succeed"
     }
 }
 }
