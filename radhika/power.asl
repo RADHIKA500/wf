@@ -1,10 +1,10 @@
 {
   "Comment": "Power on a VMware VM.",
-  "StartAt": "RJPower",
+  "StartAt": "RJPowernew",
   "States": {
-  "RJPower": {
+  "RJPowernew": {
       "Type": "Task",
-      "Resource": "docker://docker.io/manageiq/workflows-examples-provision-vm-service-power-on-vm:latest",
+      "Resource": "docker://docker.io/radhika500/workflows-examples-provision-vm-service-poweronvmimg:latest",
       "Next": "SuccessState",
       "Credentials": {
         "vcenter_user.$": "$.vcenter_user",
