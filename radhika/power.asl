@@ -12,7 +12,7 @@
       },
       "Parameters": {
         "VCENTER_HOST.$": "$.vcenter_host",
-        "VM.$": "$.vm"
+        "VM.$": "$.dialog_vmid"
       }
     }
 }
