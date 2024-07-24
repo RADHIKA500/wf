@@ -62,7 +62,7 @@
 
     "PowerOnVM": {
       "Type": "Task",
-      "Resource": "docker://docker.io/manageiq/workflows-examples-provision-vm-service-power-on-vm:latest",
+      "Resource": "docker://docker.io/radhika500/workflows-examples-provision-vm-service-poweronvmimg:latest",
       "End":true,
       "Credentials": {
         "vcenter_user.$": "$.vcenter_user",
